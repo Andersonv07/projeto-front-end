@@ -1,5 +1,6 @@
 
 // menu hamburguer
+
 const menu = document.querySelector('.container')
 function myFunction() {
     menu.classList.toggle("change");
@@ -9,7 +10,7 @@ function myFunction() {
   }
  menu.addEventListener("click",myFunction)
 
-// menus flutuante
+// menu flutuante
 
  let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -22,6 +23,4 @@ let currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
-
-// carregar mais
 

@@ -43,6 +43,10 @@ z-index: 3;
     text-decoration: none;
     color: black; 
 }
+.work a{
+    color: #0303cd;
+    border-bottom: 1px solid #3636ef8f;
+}
 
 .lista-header{
     list-style:none;
@@ -133,9 +137,16 @@ z-index: 3;
 
 .galeria{
     margin-top: 50px;
+    transition: .6s ease;
 }
 .galeria:hover{
     color: blue;
+}
+.imagem{
+    transition: 0.8s ease;  
+}
+.galeria img:hover{
+   opacity: 0.5;   
 }
 .galeria h3{
     font-family: 'Archivo Black', sans-serif;
@@ -143,6 +154,7 @@ z-index: 3;
 .galeria h3:hover{
    color: #0303cd; 
 }
+
 .carregar-mais{
     display: flex;
     justify-content: center;
